@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
         float dirX = Input.GetAxisRaw("Horizontal");
         rigidbodyComponent.velocity = new Vector2(dirX * 7f, rigidbodyComponent.velocity.y);
         transform.position += ((Vector3.down * moveSpeed) * Time.deltaTime);
-        if (Input.GetKeyDown(KeyCode.Space) ){
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded() ){
             rigidbodyComponent.velocity = new Vector3(rigidbodyComponent.velocity.x, strength, 0);
         }
 
