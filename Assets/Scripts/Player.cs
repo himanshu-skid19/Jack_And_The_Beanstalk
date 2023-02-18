@@ -6,14 +6,15 @@ public class Player : MonoBehaviour
 {
    // defining a variable for direction
    private Vector3 direction;
+    public float moveSpeed = 2;
 
     // defining the value of g which can be subject to change
     // if you want to vary the difficulty of the game
     public float gravity = -9.8f;    // -9.8 being the default value
-
+    public float velocity = 2F;
     // again defining the strength of the jump which can be used to
     // increase or decrease difficulty
-    public float strength = 500f;
+    public float strength = 5f;
 
     private float horizontalInput;
     private Rigidbody2D rigidbodyComponent;
@@ -36,8 +37,8 @@ public class Player : MonoBehaviour
    {
         float dirX = Input.GetAxisRaw("Horizontal");
         rigidbodyComponent.velocity = new Vector2(dirX * 7f, rigidbodyComponent.velocity.y);
-
-        if (Input.GetButtonDown("Jump") && isGrounded()){
+        transform.position += ((Vector3.down * moveSpeed) * Time.deltaTime);
+        if (Input.GetKeyDown(KeyCode.Space) ){
             rigidbodyComponent.velocity = new Vector3(rigidbodyComponent.velocity.x, strength, 0);
         }
 
