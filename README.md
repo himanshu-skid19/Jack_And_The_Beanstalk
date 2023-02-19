@@ -22,5 +22,7 @@ The game is made on UNITY and can be run by downloading the files in the github 
 
 https://pixabay.com/sound-effects/search/  
 
-https://mixkit.co/free-sound-effects/
+https://mixkit.co/free-sound-effects/  
+
+https://images.app.goo.gl/GQ6pzoFdnZTUxzy49
 
