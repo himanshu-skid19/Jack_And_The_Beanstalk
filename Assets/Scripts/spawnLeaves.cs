@@ -13,7 +13,8 @@ public class spawnLeaves : MonoBehaviour
     public float swapnTime=5F;
     public float tt=5F;
     public bool up=true;
-    public float timer=5F;
+    public float timer=3F;
+    private float velocity = 2;
     void Start()
     {
         spawningLeaves(up);
@@ -29,7 +30,7 @@ public class spawnLeaves : MonoBehaviour
             up=!up;
             spawningLeaves(up);
             timer=0;
-            swapnTime=Random.Range(tt*(1-timeOffset),tt);
+            swapnTime=(Random.Range(tt*(1-timeOffset),tt))*(velocity/ Constants.moveSpeed);
         }
         
 

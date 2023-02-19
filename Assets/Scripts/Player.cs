@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   // defining a variable for direction
-   private Vector3 direction;
+    // defining a variable for direction
+    private Vector3 direction;
     public float moveSpeed = 2;
 
     // defining the value of g which can be subject to change
@@ -23,6 +23,8 @@ public class Player : MonoBehaviour
     private BoxCollider2D coll;
 
     [SerializeField] private LayerMask jumpableGround;
+
+   
 
    // Start is called before the first frame update
     void Start()

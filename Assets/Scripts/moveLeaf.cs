@@ -6,11 +6,12 @@ using System;
 public class moveLeaf : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float moveSpeed=2;
+    private float moveSpeed=2;
     public float deadZone=30;
+   
     void Start()
     {
-        
+        moveSpeed = Constants.moveSpeed;
     }
 
     // Update is called once per frame

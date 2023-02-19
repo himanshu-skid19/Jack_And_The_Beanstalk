@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4916731527153550301}
   - component: {fileID: 4916731527153550302}
-  - component: {fileID: 4916731527153550300}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LeafNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,20 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4916731527153550300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4916731527153550288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6635514ba1e1a3c4e918b17dfe48b188, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  deadZone: 30
 --- !u!1 &7668267874896456864
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +97,7 @@ GameObject:
   - component: {fileID: 7668267874896456892}
   - component: {fileID: 7668267874896456895}
   - component: {fileID: 7668267874896456893}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,8 +112,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7668267874896456864}
   m_LocalRotation: {x: -0, y: -0, z: 0.611775, w: 0.79103184}
-  m_LocalPosition: {x: -0.38662267, y: 0.42074084, z: 90.40797}
-  m_LocalScale: {x: 3.2088604, y: 0.96464014, z: 0.96464}
+  m_LocalPosition: {x: -0.17, y: 0.48, z: 90.40797}
+  m_LocalScale: {x: 4.214031, y: 0.31109646, z: 0.96464}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4916731527153550301}
@@ -162,7 +147,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

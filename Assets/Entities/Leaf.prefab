@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3337330358400476394}
   - component: {fileID: 3337330358400476393}
-  - component: {fileID: 3337330358400476395}
   m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
@@ -85,17 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3337330358400476395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3337330358400476391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6635514ba1e1a3c4e918b17dfe48b188, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  deadZone: 30
