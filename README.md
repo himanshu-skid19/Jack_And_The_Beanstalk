@@ -9,8 +9,8 @@ The player can die by falling off the screen or colliding with birds while climb
 
 The user can control the player by the following keys:  
 
-Space - jump
-A/ left arrow - move left
+Space - jump  
+A/ left arrow - move left  
 D/ right arrow - move right
 
 # How to the run the game
@@ -18,7 +18,9 @@ D/ right arrow - move right
 The game is made on UNITY and can be run by downloading the files in the github repo.
 
 
-# Resources used:
-https://pixabay.com/sound-effects/search/
+# Resources used:  
+
+https://pixabay.com/sound-effects/search/  
+
 https://mixkit.co/free-sound-effects/
 
