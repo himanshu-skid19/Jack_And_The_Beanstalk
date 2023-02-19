@@ -17,7 +17,7 @@ D/ right arrow - move right
 
 The game is made on UNITY and can be run by downloading the files in the github repo and running it on unity OR by downloading the executable from the following link
 
-https://himanshu-skid19.itch.io/jack-and-the-beanstalk
+https://drive.google.com/drive/folders/1ZJWZNFgONhwTRP4MOM-xJj77u0Dhxz5i?usp=share_link
 
 
 # Resources used:  
